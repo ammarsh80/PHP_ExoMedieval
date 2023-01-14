@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 115, 108);
+}
+
+#container_strart img {
+    width: 160px;
+    height: 220px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#container_strart {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(100, 5, 5);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#personnage strong {
+    color: rgb(34, 34, 54);
+}
+
+#container_action{
+    width: 90vw;
+    height: 200px;
+    background-color: rgb(2, 58, 58);
+    padding: 20px;
+    overflow-y: scroll;
+    color: rgb(178, 170, 153);
+    font-size: 1.3em;
+
+}
